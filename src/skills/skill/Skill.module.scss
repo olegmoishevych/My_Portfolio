@@ -1,0 +1,26 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
+.skill {
+  @include flex(column, center, center, nowrap);
+  width: 280px;
+  text-align: center;
+  margin: 30px 5px 0 5px;
+  color: $textColor;
+
+  .icon {
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+  }
+
+  .skillTitle {
+    @include text($titleFontFamily, 16px, 1.2, 600);
+    letter-spacing: 1px;
+    margin: 20px 0;
+  }
+
+  .description {
+    @include text($textFontFamily, 14px, 1.8, 400);
+  }
+}
