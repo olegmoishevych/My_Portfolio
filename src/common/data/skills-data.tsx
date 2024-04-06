@@ -25,6 +25,8 @@ import Render from '../../assets/image/render.png';
 import Netlify from '../../assets/image/netlify.png';
 import Docker from '../../assets/image/docker.png';
 import Jenkins from '../../assets/image/jenkins.png';
+import Github from '../../assets/image/GitHub.png';
+import Gitlab from '../../assets/image/gitlab.png';
 
 export const skillsData = [
    {
@@ -188,82 +190,17 @@ export const skillsData = [
     title: 'Jenkins',
     description: 'Jenkins is an open-source automation server used for building, testing, and deploying software projects. It provides a wide range of plugins to support building, deploying, and automating any project, making it a versatile and powerful tool for continuous integration and continuous delivery (CI/CD).',
     backgroundImage: `url(${Jenkins})`,
+  },
+  {
+    id: '28',
+    title: 'GitHub',
+    description: 'GitHub is a web-based platform for hosting and collaborating on Git repositories. It provides tools for version control, code review, issue tracking, and project management, making it a central hub for software development teams to work together efficiently and transparently.',
+    backgroundImage: `url(${Github})`,
+  },
+  {
+    id: '29',
+    title: 'GitLab',
+    description: 'GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking, and CI/CD pipeline features, using an open-source license. It enables collaboration and code sharing within teams, offering a comprehensive platform for software development and deployment.',
+    backgroundImage: `url(${Gitlab})`,
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // {
-    //     id: '6',
-    //     title: 'CSS',
-    //     description: 'Stylesheet language used to describe the presentation of a document written in HTML.',
-    //     backgroundImage: `url(${CSS})`,
-    // },
-    // {
-    //     id: '7',
-    //     title: 'SASS',
-    //     description: 'CSS preprocessor, which adds special features such as variables, nested rules and mixins into regular CSS.',
-    //     backgroundImage: `url(${SASS})`,
-    // },
-    // {
-    //     id: '8',
-    //     title: 'Jest',
-    //     description: 'JavaScript library for creating, running, and structuring tests.',
-    //     backgroundImage: `url(${Jest})`,
-    // },
-    // {
-    //     id: '9',
-    //     title: 'Rest API',
-    //     description: 'Architectural style for an application program interface (API) that uses HTTP requests to access and use data.',
-    //     backgroundImage: `url(${RestAPI})`,
-    // },
-    // {
-    //     id: '10',
-    //     title: 'Axios',
-    //     description: 'Promise-based library used with Node.js and browser to make asynchronous JavaScript HTTP requests.',
-    //     backgroundImage: `url(${Axios})`,
-    // },
-    // {
-    //     id: '11',
-    //     title: 'Postman',
-    //     description: 'API platform for building and using APIs',
-    //     backgroundImage: `url(${Postman})`,
-    // },
-    // {
-    //     id: '12',
-    //     title: 'Material UI',
-    //     description: 'Library that allows import and use different components to create a user interface in React applications.',
-    //     backgroundImage: `url(${MaterialUI})`,
-    // },
-    // {
-    //     id: '13',
-    //     title: 'Storybook',
-    //     description: 'Tool for building UI components and pages in isolation.',
-    //     backgroundImage: `url(${Storybook})`,
-    // },
-    // {
-    //     id: '14',
-    //     title: 'GIT',
-    //     description: 'DevOps tool used for source code management.',
-    //     backgroundImage: `url(${GIT})`,
-    // },
-    // {
-    //     id: '16',
-    //     title: 'Socket.io',
-    //     description: 'Library that enables low-latency, bidirectional and event-based communication between a client and a server. ',
-    //     backgroundImage: `url(${Socket})`,
-    // }
 ]
