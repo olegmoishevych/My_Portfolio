@@ -1,6 +1,7 @@
 import React from 'react';
 import style from "./Footer.module.scss";
 import GitHub from '../assets/image/GitHub.png'
+import linkedin from '../assets/image/linkedin.png'
 import telegram from '../assets/image/telegram.png'
 import gmail from '../assets/image/gmail.png'
 import {Title} from "../common/components/title/Title";
@@ -11,6 +12,11 @@ export const Footer = () => {
       <div className={style.container}>
         <Title text={'Oleh Moishevych'}/>
         <div className={style.socialIcons}>
+          <div className={style.socialIcon}>
+            <a href={'https://www.linkedin.com/in/omoishevych/'} target={'_blank'} rel="noreferrer">
+              <img src={linkedin} alt='linkedin'/>
+            </a>
+          </div>
           <div className={style.socialIcon}>
             <a href={'https://github.com/olegmoishevych?tab=repositories'} target={'_blank'} rel="noreferrer">
               <img src={GitHub} alt='GitHub'/>
@@ -27,7 +33,7 @@ export const Footer = () => {
             </a>
           </div>
         </div>
-        <span className={style.copyright}>© 2022 All Rights Reserved</span>
+        <span className={style.copyright}>© 2024 All Rights Reserved</span>
       </div>
     </div>
   )
