@@ -9,20 +9,20 @@ export const Footer = () => {
   return (
     <div className={style.footer}>
       <div className={style.container}>
-        <Title text={'Ekaterina Yurchyk'}/>
+        <Title text={'Oleh Moishevych'}/>
         <div className={style.socialIcons}>
           <div className={style.socialIcon}>
-            <a href={'https://github.com/EkaterinaYurchyk2022'} target={'_blank'} rel="noreferrer">
+            <a href={'https://github.com/olegmoishevych?tab=repositories'} target={'_blank'} rel="noreferrer">
               <img src={GitHub} alt='GitHub'/>
             </a>
           </div>
           <div className={style.socialIcon}>
-            <a href={'https://t.me/EkaterinaYurchyk'} target={'_blank'} rel="noreferrer">
+            <a href={'https://t.me/oleg_moishevych'} target={'_blank'} rel="noreferrer">
               <img src={telegram} alt='Telegram'/>
             </a>
           </div>
           <div className={style.socialIcon}>
-            <a href={'mailto:ekaterina.yurchyk.s@gmail.com'} target={'_blank'} rel="noreferrer">
+            <a href={'mailto:olegmoishevych@gmail.com'} target={'_blank'} rel="noreferrer">
               <img src={gmail} alt='Gmail'/>
             </a>
           </div>
