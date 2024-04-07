@@ -27,6 +27,11 @@ import Docker from '../../assets/image/docker.png';
 import Jenkins from '../../assets/image/jenkins.png';
 import Github from '../../assets/image/GitHub.png';
 import Gitlab from '../../assets/image/gitlab.png';
+import Oauth2 from '../../assets/image/oauth.png';
+import Metamask from '../../assets/image/metamask.png';
+import Web3 from '../../assets/image/web3.png';
+import Recaptcha from '../../assets/image/recaptcha.png';
+import Stripe from '../../assets/image/stripe.png';
 
 export const skillsData = [
    {
@@ -202,5 +207,35 @@ export const skillsData = [
     title: 'GitLab',
     description: 'GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking, and CI/CD pipeline features, using an open-source license. It enables collaboration and code sharing within teams, offering a comprehensive platform for software development and deployment.',
     backgroundImage: `url(${Gitlab})`,
+  },
+  {
+    id: '30',
+    title: 'OAuth 2.0',
+    description: 'OAuth 2.0 is an authorization framework that enables third-party applications to obtain limited access to a user\'s protected resources without exposing their credentials. It is commonly used as a way for Internet users to grant websites or applications access to their information on other websites but without giving them the passwords.',
+    backgroundImage: `url(${Oauth2})`,
+  },
+  {
+    id: '31',
+    title: 'MetaMask',
+    description: 'MetaMask is a cryptocurrency wallet and a gateway to blockchain apps, allowing users to manage their digital assets, interact with decentralized applications (DApps), and securely store and transfer cryptocurrencies. It functions as a browser extension or a mobile app, providing a user-friendly interface for accessing Ethereum-based decentralized finance (DeFi) applications, decentralized exchanges (DEXs), and other blockchain services. MetaMask simplifies the process of interacting with the Ethereum blockchain, providing a seamless experience for both developers and end-users.',
+    backgroundImage: `url(${Metamask})`,
+  },
+  {
+    id: '32',
+    title: 'Web 3.0',
+    description: 'Web 3.0, often referred to as the decentralized web or semantic web, represents the next evolution of the internet, where data and services are decentralized, trustless, and interoperable. Unlike Web 2.0, which relies heavily on centralized platforms and services, Web 3.0 aims to empower users with greater control over their data and digital interactions. It leverages blockchain technology, decentralized storage systems, and smart contracts to enable peer-to-peer transactions, decentralized applications (DApps), and autonomous organizations. Web 3.0 promises to revolutionize various industries, including finance, healthcare, and supply chain, by fostering transparency, security, and censorship resistance.',
+    backgroundImage: `url(${Web3})`,
+  },
+  {
+    id: '33',
+    title: 'reCAPTCHA',
+    description: 'reCAPTCHA is a security service provided by Google that helps protect websites from spam and abuse by analyzing user interactions and determining whether they are human or bot-generated. It utilizes advanced risk analysis techniques to distinguish between legitimate users and automated scripts, such as bots or crawlers, helping website owners prevent unauthorized access, fraudulent activities, and unwanted submissions. reCAPTCHA offers various implementation options, including the classic checkbox, invisible reCAPTCHA, and reCAPTCHA v3, each tailored to different use cases and security requirements. By integrating reCAPTCHA into their websites, developers can enhance security, improve user experience, and mitigate the risks associated with online forms and interactions.',
+    backgroundImage: `url(${Recaptcha})`,
+  },
+  {
+    id: '34',
+    title: 'Stripe',
+    description: 'Stripe is a global online payment processing platform that enables businesses to accept payments over the internet securely and seamlessly. It offers a suite of APIs and tools that allow developers to integrate payment processing functionality into websites and mobile applications with ease. With Stripe, businesses can accept various payment methods, including credit cards, debit cards, and digital wallets, in multiple currencies and countries. Stripe provides advanced features such as subscription billing, invoicing, and fraud prevention, empowering businesses of all sizes to scale and optimize their online revenue streams. By leveraging Stripe\'s infrastructure, developers can focus on building innovative products and delivering exceptional user experiences while offloading the complexities of payment processing to a reliable and trusted partner.',
+    backgroundImage: `url(${Stripe})`,
   }
 ]
