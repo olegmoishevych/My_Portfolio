@@ -39,6 +39,7 @@ import Tdd from '../../assets/image/tdd.png';
 import Gpt from '../../assets/image/gpt.png';
 import Mailgun from '../../assets/image/mailgun.png';
 
+
 export const skillsData = [
    {
     id: '1',
