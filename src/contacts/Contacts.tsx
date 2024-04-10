@@ -25,7 +25,6 @@ export const Contacts = () => {
             });
         e.target.reset()
     }
-
     return (
         <div id='contacts' className={style.contactsBlock}>
             <div className={style.container}>
