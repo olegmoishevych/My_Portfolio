@@ -16,7 +16,6 @@ interface IFormInputs {
 
 export const Contacts = () => {
     const {register, formState: {errors}, handleSubmit} = useForm<IFormInputs>();
-
     const onSubmit = (data: IFormInputs, e: any) => {
         e.preventDefault()
         axios.post('https://gmail-smtp-nodejs-my-server.herokuapp.com/', {data})
