@@ -38,6 +38,20 @@ import Ddd from '../../assets/image/ddd.png';
 import Tdd from '../../assets/image/tdd.png';
 import Gpt from '../../assets/image/gpt.png';
 import Mailgun from '../../assets/image/mailgun.png';
+import Jira from '../../assets/image/jira.png';
+import Trello from '../../assets/image/trello.png';
+import Jest from '../../assets/image/jest.svg';
+import Facebook from '../../assets/image/facebook.png';
+import GoogleApi from '../../assets/image/googleAPI.png';
+import TelegramAPI from '../../assets/image/telegramAPI.png';
+import ZoomApi from '../../assets/image/zoomApi.png';
+import Weather from '../../assets/image/weather.png';
+import WeatherStack from '../../assets/image/weatherStack.png';
+import Geolocation from '../../assets/image/geolocation.png';
+import GoogleMaps from '../../assets/image/googleMaps.png';
+import MacOS from '../../assets/image/macOS.png';
+import Linux from '../../assets/image/linux.png';
+import Windows from '../../assets/image/windows.png';
 
 
 export const skillsData = [
@@ -78,11 +92,11 @@ export const skillsData = [
     backgroundImage: `url(${Next})`,
   },
   {
-        id: '7',
-        title: 'React',
-        description: 'JavaScript-based UI development library.',
-        backgroundImage: `url(${React})`,
-    },
+    id: '7',
+    title: 'React',
+    description: 'JavaScript-based UI development library.',
+    backgroundImage: `url(${React})`,
+  },
     {
         id: '8',
         title: 'Redis',
@@ -280,5 +294,89 @@ export const skillsData = [
     title: 'Mailgun',
     description: 'Mailgun is a cloud-based email service provider that offers powerful tools for sending, receiving, and managing transactional and marketing emails.',
     backgroundImage: `url(${Mailgun})`,
+  },
+  {
+    id: '42',
+    title: 'Jira',
+    description: 'Jira is a project management tool designed for issue tracking, task management, and agile development. It supports teams in planning, tracking, and releasing software.',
+    backgroundImage: `url(${Jira})`,
+  },
+  {
+    id: '43',
+    title: 'Trello',
+    description: 'Trello is a visual collaboration tool that creates a shared perspective on any project. It utilizes boards, lists, and cards to organize tasks and track progress.',
+    backgroundImage: `url(${Trello})`,
+  },
+  {
+    id: '44',
+    title: 'Jest',
+    description: 'Jest is a JavaScript testing framework designed for simplicity and efficiency, with features for unit and integration testing, as well as test mocking.',
+    backgroundImage: `url(${Jest})`,
+  },
+  {
+    id: '45',
+    title: 'Facebook API',
+    description: 'The Facebook API enables developers to access and interact with Facebook data, supporting integration with apps, websites, and other services.',
+    backgroundImage: `url(${Facebook})`,
+  },
+  {
+    id: '46',
+    title: 'Google API',
+    description: 'Google API provides developers with access to a range of Google services and data, including Maps, Drive, and YouTube, enhancing app functionality and integration.',
+    backgroundImage: `url(${GoogleApi})`,
+  },
+  {
+    id: '47',
+    title: 'Telegram API',
+    description: 'The Telegram API allows developers to build bots and integrate with the Telegram messaging platform, enabling automation and enhanced communication features.',
+    backgroundImage: `url(${TelegramAPI})`,
+  },
+  {
+    id: '48',
+    title: 'Zoom API',
+    description: 'The Zoom API enables developers to access and manipulate Zoom\'s meeting and webinar functionality, facilitating the integration of Zoom services into applications.',
+    backgroundImage: `url(${ZoomApi})`,
+  },
+  {
+    id: '49',
+    title: 'OpenWeatherMap API',
+    description: 'The OpenWeatherMap API provides developers with access to current, historical, and forecasted weather data, supporting weather-related features in applications.',
+    backgroundImage: `url(${Weather})`,
+  },
+  {
+    id: '50',
+    title: 'WeatherStack API',
+    description: 'The WeatherStack API offers real-time, historical, and forecast weather data, enabling developers to integrate precise weather information into their applications.',
+    backgroundImage: `url(${WeatherStack})`,
+  },
+  {
+    id: '51',
+    title: 'Geolocation API',
+    description: 'The Geolocation API allows developers to retrieve geographical position information for a host device, enhancing location-based services in applications.',
+    backgroundImage: `url(${Geolocation})`,
+  },
+  {
+    id: '52',
+    title: 'Google Maps API',
+    description: 'The Google Maps API provides tools for incorporating maps, geolocation, and place information into web and mobile applications, enabling rich location-based experiences.',
+    backgroundImage: `url(${GoogleMaps})`,
+  },
+  {
+    id: '53',
+    title: 'macOS',
+    description: 'macOS is the desktop operating system from Apple, known for its sleek interface and strong ecosystem integration, enhancing productivity and user experience.',
+    backgroundImage: `url(${MacOS})`,
+  },
+  {
+    id: '54',
+    title: 'Linux',
+    description: 'Linux is a family of open-source Unix-like operating systems based on the Linux kernel, widely used for its flexibility, security, and customization capabilities.',
+    backgroundImage: `url(${Linux})`,
+  },
+  {
+    id: '55',
+    title: 'Windows',
+    description: 'Windows is a widely-used operating system developed by Microsoft, known for its graphical user interface, broad hardware support, and extensive software compatibility.',
+    backgroundImage: `url(${Windows})`,
   }
 ]
