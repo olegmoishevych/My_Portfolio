@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39bd28aa-6875-4a2d-817e-43c9676c0c94" name="Changes" comment="change skills list">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="39bd28aa-6875-4a2d-817e-43c9676c0c94" name="Changes" comment="change contacts" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +87,7 @@
     <MESSAGE value="fix footer and index" />
     <MESSAGE value="add linkedin" />
     <MESSAGE value="change skills list" />
-    <option name="LAST_COMMIT_MESSAGE" value="change skills list" />
+    <MESSAGE value="change contacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="change contacts" />
   </component>
 </project>
