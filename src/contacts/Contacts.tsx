@@ -5,7 +5,6 @@ import { Title } from '../common/components/title/Title';
 import { Button } from '../common/components/button/Button';
 const Fade = require('react-reveal/Fade');
 
-
 interface IFormInputs {
   name: string;
   email: string;
