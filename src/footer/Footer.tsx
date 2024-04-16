@@ -5,7 +5,6 @@ import linkedin from '../assets/image/linkedin.png'
 import telegram from '../assets/image/telegram.png'
 import gmail from '../assets/image/gmail.png'
 import {Title} from "../common/components/title/Title";
-
 export const Footer = () => {
   return (
     <div className={style.footer}>
