@@ -25,7 +25,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "git@github.com:olegmoishevych/My_Portfolio.git",
-    "accountId": "42d9d395-c335-4616-8f9c-95e61e0843cf"
+    "accountId": "a1bb513a-a318-42f8-94d8-f1faade93723"
   }
 }]]></component>
   <component name="MarkdownSettingsMigration">
@@ -95,7 +95,7 @@
       <workItem from="1714300111550" duration="61000" />
       <workItem from="1714300180451" duration="16000" />
       <workItem from="1714300202684" duration="270000" />
-      <workItem from="1714300482146" duration="111000" />
+      <workItem from="1714300482146" duration="122000" />
     </task>
     <task id="LOCAL-00001" summary="change contacts">
       <option name="closed" value="true" />
@@ -105,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714300491947</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change contacts">
+      <option name="closed" value="true" />
+      <created>1714300597892</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714300597892</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
