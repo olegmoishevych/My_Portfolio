@@ -19,12 +19,15 @@
     &quot;assignee&quot;: &quot;olegmoishevych&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:olegmoishevych/My_Portfolio.git&quot;,
-    &quot;accountId&quot;: &quot;a1bb513a-a318-42f8-94d8-f1faade93723&quot;
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="0642eb9e-30ef-42b6-bef0-766f7e8930fc" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:olegmoishevych/My_Portfolio.git",
+    "accountId": "0642eb9e-30ef-42b6-bef0-766f7e8930fc"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -94,6 +97,7 @@
       <workItem from="1714300202684" duration="270000" />
       <workItem from="1714300482146" duration="122000" />
       <workItem from="1714300609909" duration="124000" />
+      <workItem from="1714300736138" duration="146000" />
     </task>
     <task id="LOCAL-00001" summary="change contacts">
       <option name="closed" value="true" />
@@ -119,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714300613905</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change contacts">
+      <option name="closed" value="true" />
+      <created>1714300739626</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714300739626</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
