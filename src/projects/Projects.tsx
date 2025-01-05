@@ -15,14 +15,15 @@ export const Projects = () => {
                     <Title text={'Projects'}/>
                 </Fade>
                 <div className={style.projects}>
-                    {projectsData.map(p =>
-                        <Project key={p.id}
-                                 id={p.id}
-                                 title={p.title}
-                                 description={p.description}
-                                 backgroundImage={p.backgroundImage}
-                                 repoLink={p.repoLink}
-                        />)}
+                    {
+                        // projectsData.map(p => <Project key={p.id}
+                        //          id={p.id}
+                        //          title={p.title}
+                        //          description={p.description}
+                        //          backgroundImage={p.backgroundImage}
+                        //          repoLink={p.repoLink}
+                        // />)
+                    }
                 </div>
             </div>
         </div>

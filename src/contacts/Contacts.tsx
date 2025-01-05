@@ -37,10 +37,8 @@ export const Contacts = () => {
   const onSubmit = (data: IFormInputs, e: any) => {
     e.preventDefault();
     sendTelegramMessage(data).then(response => {
-      console.log('Message sent:', response);
       alert('Thank you for your message');
     }).catch(error => {
-      console.error('Error sending message:', error);
       alert('Failed to send message');
     });
     e.target.reset();
