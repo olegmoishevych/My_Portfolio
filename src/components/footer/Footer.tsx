@@ -1,10 +1,10 @@
 import React from 'react';
 import style from "./Footer.module.scss";
-import GitHub from '../assets/image/GitHub.png'
-import linkedin from '../assets/image/linkedin.png'
-import telegram from '../assets/image/telegram.png'
-import gmail from '../assets/image/gmail.png'
-import {Title} from "../common/components/title/Title";
+import GitHub from '../../assets/image/GitHub.png'
+import linkedin from '../../assets/image/linkedin.png'
+import telegram from '../../assets/image/telegram.png'
+import gmail from '../../assets/image/gmail.png'
+import {Title} from "../../common/components/title/Title";
 
 const socialLinks = [
   { href: 'https://www.linkedin.com/in/olehmoishevych/', src: linkedin, alt: 'LinkedIn' },
@@ -15,7 +15,7 @@ const socialLinks = [
 
 export const Footer = () => {
   return (
-      <div className={style.footer}>
+      <div id='footer' className={style.footer}>
         <div className={style.container}>
           <Title text="Contacts" />
           <div className={style.socialIcons}>

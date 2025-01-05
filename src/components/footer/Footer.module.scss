@@ -1,5 +1,5 @@
-@import '../common/styles/sass/variables';
-@import '../common/styles/sass/mixins';
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
 
 .footer {
   min-height: 300px;
@@ -8,12 +8,12 @@
   .container {
     @include container();
     @include flex(column, flex-start, center, nowrap);
-    padding: 100px 0 20px;
+    padding: 60px 0 20px;
 
     .socialIcons {
       @include flex(row, space-between, center, nowrap);
       width: 400px;
-      margin-top: 30px;
+      margin-top: 20px;
       @media screen and (max-width: 505px) {
         width: 100%;
       }
@@ -47,8 +47,7 @@
     }
 
     copyright {
-
-      margin-top: 40px;
+      margin-top: 20px;
       @include text($textFontFamily, 14px, 1.2, 300);
       opacity: 0.6;
     }
