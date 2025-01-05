@@ -3,46 +3,36 @@ import style from './BurgerNav.module.scss';
 import { Link } from 'react-scroll';
 
 export const BurgerNav = () => {
-  let [openedMenu, setOpenedMenu] = useState(false);
+    const [openedMenu, setOpenedMenu] = useState(false);
 
-  let onBurgerBtnClick = () => {
-    setOpenedMenu(!openedMenu);
-    console.log(openedMenu);
-  };
+    const links = [
+        { to: 'main', label: 'Main' },
+        { to: 'skills', label: 'Skills' },
+        { to: 'projects', label: 'Projects' },
+        { to: 'contacts', label: 'Contacts' },
+    ];
 
-  return (
-    <div className={style.burgerNav}>
-      <div className={openedMenu ? `${style.burgerNavItems} ${style.show}` : style.burgerNavItems}>
-        <Link
-          activeClass={style.active}
-          to='main'
-          spy={true}
-          smooth={true}
-          offset={1}
-          duration={500}>Main</Link>
-        <Link
-          activeClass={style.active}
-          to='skills'
-          spy={true}
-          smooth={true}
-          offset={1}
-          duration={500}>Skills</Link>
-        <Link
-          activeClass={style.active}
-          to='projects'
-          spy={true}
-          smooth={true}
-          offset={1}
-          duration={500}>Projects</Link>
-        <Link
-          activeClass={style.active}
-          to='contacts'
-          spy={true}
-          smooth={true}
-          offset={1}
-          duration={500}>Contacts</Link>
-      </div>
-      <div className={style.burgerBtn} onClick={onBurgerBtnClick}></div>
-    </div>
-  );
-}
+    return (
+        <div className={style.burgerNav}>
+            <div className={`${style.burgerNavItems} ${openedMenu ? style.show : ''}`}>
+                {links.map(({ to, label }) => (
+                    <Link
+                        key={to}
+                        activeClass={style.active}
+                        to={to}
+                        spy={true}
+                        smooth={true}
+                        offset={1}
+                        duration={500}
+                    >
+                        {label}
+                    </Link>
+                ))}
+            </div>
+            <div
+                className={style.burgerBtn}
+                onClick={() => setOpenedMenu(!openedMenu)}
+            ></div>
+        </div>
+    );
+};
