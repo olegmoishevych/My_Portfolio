@@ -53,7 +53,6 @@ import MacOS from '../../assets/image/macOS.png';
 import Linux from '../../assets/image/linux.png';
 import Windows from '../../assets/image/windows.png';
 
-
 export const skillsData = [
    {
     id: '1',

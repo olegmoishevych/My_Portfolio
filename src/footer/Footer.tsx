@@ -17,7 +17,7 @@ export const Footer = () => {
   return (
       <div className={style.footer}>
         <div className={style.container}>
-          <Title text="Oleh Moishevych" />
+          <Title text="Contacts" />
           <div className={style.socialIcons}>
             {socialLinks.map(({ href, src, alt }, index) => (
                 <div className={style.socialIcon} key={index}>
@@ -27,7 +27,7 @@ export const Footer = () => {
                 </div>
             ))}
           </div>
-          <span className={style.copyright}>© 2024 All Rights Reserved</span>
+          <span className={style.copyright}>© 2025 All Rights Reserved</span>
         </div>
       </div>
   );

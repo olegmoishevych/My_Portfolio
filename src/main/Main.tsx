@@ -44,6 +44,7 @@ const particlesOptions = {
         },
     },
 }
+
 export const Main = () => {
     return (
         <div id='main' className={style.mainBlock}>
