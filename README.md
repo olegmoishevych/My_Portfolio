@@ -1,2 +1,4 @@
 1 - yarn install
-2 - yarn run start
+2 - yarn build
+3 - yarn run start
+
