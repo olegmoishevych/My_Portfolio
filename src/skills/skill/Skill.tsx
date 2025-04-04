@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Skill.module.scss'
 
 const Zoom = require('react-reveal/Zoom')
+
 type SkillPropsType = {
     id: string
     title: string
